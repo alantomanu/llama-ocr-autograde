@@ -1,6 +1,5 @@
 import express from 'express';
 import Together from "together-ai";
-import fs from 'fs';
 import axios from 'axios';
 import dotenv from 'dotenv';
 
