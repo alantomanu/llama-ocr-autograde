@@ -1,0 +1,26 @@
+{
+  "name": "llama",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "This is an OCR API for AutoGrade, an Intelligent Exam Sheet Scoring System.",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0",
+    "path": "^0.12.7",
+    "sharp": "^0.33.5",
+    "together-ai": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2"
+  },
+  "keywords": []
+}
